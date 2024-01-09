@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:rgb(101, 98, 98);
+
+}
+.container-form{
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  /* background: linear-gradient(to right, #373b44, #4286f4); */
+   background: linear-gradient(to right, #282727, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container-form form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  /* color: #fff; */
+}
+form h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.red{
+  background: rgb(51, 64, 213);
+  
+}
+.textfield-color {
+  color: red !important; /* Cambia 'blue' al color que desees */
+}
+.link{
+  color: blue !important;
+}
+.alert{
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.errorCon{
+  background: rgb(101, 1, 1);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(234, 138, 138);
+  font-size: 17px;
+}
+
+.containerDash{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 30px;
+
+}
+.containerDash span{
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.svg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0; 
+  /* display: inline-block;  */
+  padding: 8px; 
+  border-radius: 50px;
+  margin: 5px;
+  font-family: 'Mukta', sans-serif;
+}
+.options {
+  display: flex;
+}
+.options div{
+  margin: 2px;
+}
